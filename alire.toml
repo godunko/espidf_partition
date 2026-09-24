@@ -1,0 +1,21 @@
+name = "espidf_partition"
+version = "0.1.0-dev"
+website = "https://github.com/godunko/espidf_mdns"
+description = "Ada/ESP-IDF: ESP Partition Bindings"
+long-description = """
+Ada bindings for the ESP-IDF Partition API component, providing low-level access to the ESP32 flash memory partition table and raw flash read/write operations.
+"""
+
+authors = ["Vadim Godunko"]
+maintainers = ["Vadim Godunko <vgodunko@gmail.com>"]
+maintainers-logins = ["godunko"]
+licenses = "Apache-2.0 WITH LLVM-exception"
+tags = ["a0b", "embedded", "esp", "esp32", "espidf"]
+
+[configuration]
+generate_ada = false
+generate_c = false
+generate_gpr = true
+
+[[depends-on]]
+espidf = "*"

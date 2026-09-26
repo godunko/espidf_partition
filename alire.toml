@@ -1,9 +1,13 @@
 name = "espidf_partition"
 version = "0.1.0-dev"
 website = "https://github.com/godunko/espidf_partition"
-description = "Ada/ESP-IDF: ESP Partition Bindings"
+description = "Ada/ESP-IDF: Partition API bindings"
 long-description = """
-Ada bindings for the ESP-IDF Partition API component, providing low-level access to the ESP32 flash memory partition table and raw flash read/write operations.
+Ada bindings for the ESP-IDF Partition API (`esp_partition`).
+
+Provides partition types and subtypes, and lookup of partitions in the partition table
+(`esp_partition_find_first`). Used by the wear levelling, FAT and USB mass storage bindings
+to locate their flash partitions.
 """
 
 authors = ["Vadim Godunko"]

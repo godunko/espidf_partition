@@ -1,5 +1,5 @@
 name = "espidf_partition"
-version = "0.1.0-dev"
+version = "0.2.0-dev"
 website = "https://github.com/godunko/espidf_partition"
 description = "Ada/ESP-IDF: Partition API bindings"
 long-description = """
